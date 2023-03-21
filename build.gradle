@@ -23,7 +23,7 @@ reckon {
 
 
 def reconVer = project.version.toString().toLowerCase()
-new File("${projectDir}/reconVer.txt").text = "${reconVer.replaceAll("\\+","-")}"
+//new File("${projectDir}/reconVer.txt").text = "${reconVer.replaceAll("\\+","-")}"
 
 
 repositories {
